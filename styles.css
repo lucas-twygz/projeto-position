@@ -1,0 +1,69 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #5256ad;
+}
+.box1{
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    left: 400px;
+    top: 150px;
+    background-color: #999ede;
+    z-index: 0;
+}
+.input1 {
+    width: 70%; 
+    padding: 5px; 
+    font-size: 15px;
+}
+.textobox{
+    position: static;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 140px;
+    padding-left: 100px;
+    z-index: 1;
+}
+.textobox1{
+    position: static;
+    padding-top: 70px;
+    text-align: center;
+}
+.botao{
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 450px;
+    max-width: 190px;
+    text-align: center;
+    z-index: 1;
+}
+.botao1{
+    position: absolute;
+    text-align: center;
+    border: 1px #ff72b3;
+    border-radius: 5px;
+    background-color: #ff72b3;
+    max-width: 20px;
+    padding: 5px;
+    right: 100px;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 190px;
+    z-index: 2;
+}
+.box2{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    left: 750px;
+    top: 100px;
+    background-color: white;
+    z-index: 2;
+}
